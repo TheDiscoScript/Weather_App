@@ -1,0 +1,157 @@
+html {
+  font-size: 62, 5%;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#wholeContent {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 20% 70% 10%;
+  grid-template-areas:
+    "name . temperature"
+    "gifleft maincontent gifright"
+    ". underP .";
+}
+#nameApp {
+  grid-area: name;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  padding-left: 1rem;
+}
+#buttonTemperature {
+  grid-area: temperature;
+  border-radius: 50%;
+  width: 50%;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  height: 50%;
+  font-size: 1rem;
+  font-weight: bold;
+}
+#gifLeft {
+  grid-area: gifleft;
+}
+#gifRight {
+  grid-area: gifright;
+}
+#underP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: underP;
+}
+#informationHolder {
+  display: flex;
+  grid-area: maincontent;
+  min-width: 30rem;
+  min-height: 30rem;
+  justify-content: center;
+  align-items: center;
+}
+#informationDiv {
+  background: none;
+  border: gold 1px dotted;
+  padding: 0.4rem;
+  display: grid;
+  min-width: 30rem;
+  min-height: 30rem;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: 15% 25% 15% 15% 30%;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-areas:
+    ". searchbar ."
+    ". location ."
+    "temperature temperature temperature"
+    "status status status"
+    "morestatus morestatus morestatus";
+}
+.inputDiv {
+  display: flex;
+  padding-top: 1rem;
+  grid-area: searchbar;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+}
+#input {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgba(180, 158, 158, 0.303);
+  width: 30rem;
+  height: 3rem;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.location {
+  grid-area: location;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "city country";
+}
+#city {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+  grid-area: city;
+}
+#country {
+  font-size: 1.7rem;
+  text-align: center;
+  grid-area: country;
+}
+.temperatureDiv {
+  grid-area: temperature;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  justify-content: center;
+  align-items: center;
+}
+.temps {
+  font-size: 1.1rem;
+  text-align: center;
+}
+.tempNum {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+#averageT {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+.statusDiv {
+  grid-area: status;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#status {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+#description {
+  padding-top: 0.4rem;
+  margin-left: 3rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.moreStatuses {
+  grid-area: morestatus;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.3rem;
+}
+#currentTime {
+  font-size: 1.6rem;
+}
