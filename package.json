@@ -1,0 +1,26 @@
+{
+  "name": "odinproject_weatherapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Willdooo/odinProject_WeatherApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Willdooo/odinProject_WeatherApp/issues"
+  },
+  "homepage": "https://github.com/Willdooo/odinProject_WeatherApp#readme",
+  "devDependencies": {
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}

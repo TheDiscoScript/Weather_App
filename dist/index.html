@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" , href="style.css" type="text/css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+      <div id="wholeContent">
+          <div id="nameApp">Weather App</div>
+          <button id="buttonTemperature" class="celcius">Switch F/C°</button>
+          <img class="gifImg" id="gifLeft"></img>
+          <div id="informationHolder">
+            <div id="informationDiv"> 
+                <div class="inputDiv">
+                  <input placeholder="Search for city..." id="input">
+                </div>
+                <div class="location">
+                  <p id="city"></p>
+                  <p id="country"></p>
+                </div>
+                <div class="temperatureDiv">
+                  <div class="mitTDiv temps">
+                    <p>Minimal temperature:</p>
+                    <p id="minT" class="tempNum"></p>
+                  </div>
+                  <div class="averageTDiv temps">
+                    <p id="averageT"></p>
+                  </div>
+                  <div class="maxTDiv temps">
+                    <p>Maximal temperature:</p>
+                    <p id="maxT" class="tempNum"></p>
+                  </div>
+                </div>
+                <div class="statusDiv">
+                  <p id="status"></p>
+                  <p id="description"></p>
+                </div>
+                <div class="moreStatuses">
+                  <div>
+                    <p id="wind"></p>
+                    <p id="humidity"></p>
+                  </div>
+                  
+                  <p id="currentTime"></p>
+                  <div>
+                     <p id="sunrise"> </p>
+                     <p id="sunset"></p>
+                  </div>
+                  
+                </div>
+            </div>
+          </div>
+          <img class="gifImg" id="gifRight"></img>
+          <div id="underP">
+              <p>By <a href="https://github.com/Willdooo">Willdooo</a> </p>
+          </div>
+      </div>
+  </body>
+</html>
