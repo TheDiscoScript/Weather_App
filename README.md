@@ -1,27 +1,15 @@
-<h1 align="center">Welcome to  👋</h1>
+<h1 align="center">Welcome to Weather-App 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/Willdooo/odinProject_WeatherApp#readme" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/Willdooo/odinProject_WeatherApp/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
-  </a>
-  <a href="https://github.com/Willdooo/odinProject_WeatherApp/blob/master/LICENSE" target="_blank">
-    <img alt="License: ISC" src="https://img.shields.io/github/license/Willdooo/" />
-  </a>
 </p>
 
-> First project in which I used APIs. //TODO - background
+## Description
 
-https://willdooo.github.io/Weather_App/
-## Author
+Weather app with API for cities all over the world. In this project I got to use APIs and ASYNC functionality in JS.
+Project made as a part of [The Odin Project's curriculum](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/weather-app).
 
-- Github: [@Willdooo](https://github.com/Willdooo)
+## Development
 
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Willdooo/odinProject_WeatherApp/issues). You can also take a look at the [contributing guide](https://github.com/Willdooo/odinProject_WeatherApp/blob/master/CONTRIBUTING.md).
+- JS, CSS
 
 ## Show your support
 
